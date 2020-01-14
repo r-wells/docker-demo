@@ -20,6 +20,8 @@ node {
     stage('docker build/push') {
      sh "git add ."
      sh "git commit -m 'new commit'"
+     sh "git config --global user.email 'rwellskc@gmail.com'"
+     //sh "git config --global user.name "Your Name""
      sh "git push origin master"
    }
    
