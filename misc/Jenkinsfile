@@ -22,7 +22,7 @@ node {
      sh "git commit -m 'new commit'"
     // sh "git config --global user.email rwellskc@gmail.com"
      //sh "git config --global user.name r-wells"
-     sh "git push origin master"
+     //sh "git push origin master"
    }
    
 }
